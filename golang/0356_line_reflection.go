@@ -2,6 +2,7 @@ package main
 
 import "math"
 
+// O(nlogn)
 func isReflected(points [][]int) bool {
 	m := map[[2]float64]bool{}
 
