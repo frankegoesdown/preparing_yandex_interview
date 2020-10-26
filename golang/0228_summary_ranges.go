@@ -5,6 +5,8 @@ import (
 	"strconv"
 )
 
+// timeComplexity O(n)
+// spaceComplexity O(1)
 func main() {
 	fmt.Println(summaryRanges([]int{0, 2, 3, 4, 6, 8, 9}))
 }
